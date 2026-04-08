@@ -1,15 +1,13 @@
 
-import React from 'react'
-
 function App() {
   return (
     <div className="min-h-screen bg-white text-gray-800 font-sans">
 
       {/* 1. NAVBAR SECTION (Logo Left, Menu Right) */}
-          <nav className="sticky top-0 flex justify-between items-center bg-white h-15 p-6 max-w-6xl mx-auto">
+      <nav className="sticky top-0 flex justify-between items-center bg-white h-15 p-6 max-w-6xl mx-auto">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-600 cursor-pointer">
-          YN 
+          YN
         </div>
 
         {/* Menu Items */}
@@ -180,8 +178,9 @@ function App() {
 
       {/* 5. CONTACT SECTION (Simple Contact Info) */}
 
-      <section id="contact me" className=" bg-gray-50  px-20 py-20 text-center">
-        <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
+      <section id="contact me" className=" bg-gray-50  py-12 sm:py-16 md:py-20 px-4 sm:px-6 text-center">
+        <h2 className="text-3xl font-bold mb-6">
+          Contact Me</h2>
 
         <form className="flex flex-col gap-4 max-w-md mx-auto">
 
